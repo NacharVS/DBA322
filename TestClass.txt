@@ -1,8 +1,0 @@
-class TestClass
-{
-string FirstName;
-string LastName;
-int age;
-string Job;
-
-}

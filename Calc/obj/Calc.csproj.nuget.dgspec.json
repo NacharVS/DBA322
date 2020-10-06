@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Р\\Files\\Тех\\Начаров\\Calc\\Calc\\Calc.csproj": {}
+    "C:\\Users\\Р\\Files\\Тех\\Сп\\DBA322\\Calc\\Calc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Р\\Files\\Тех\\Начаров\\Calc\\Calc\\Calc.csproj": {
+    "C:\\Users\\Р\\Files\\Тех\\Сп\\DBA322\\Calc\\Calc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Р\\Files\\Тех\\Начаров\\Calc\\Calc\\Calc.csproj",
+        "projectUniqueName": "C:\\Users\\Р\\Files\\Тех\\Сп\\DBA322\\Calc\\Calc.csproj",
         "projectName": "Calc",
-        "projectPath": "C:\\Users\\Р\\Files\\Тех\\Начаров\\Calc\\Calc\\Calc.csproj",
+        "projectPath": "C:\\Users\\Р\\Files\\Тех\\Сп\\DBA322\\Calc\\Calc.csproj",
         "packagesPath": "C:\\Users\\Р\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Р\\Files\\Тех\\Начаров\\Calc\\Calc\\obj\\",
+        "outputPath": "C:\\Users\\Р\\Files\\Тех\\Сп\\DBA322\\Calc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Nacharov">
       <UniqueIdentifier>{55aa83e5-3b5f-42b5-b77a-bfacbbe572a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Nguen">
+      <UniqueIdentifier>{62287c98-f96d-4a39-bc7e-361b5c628c9f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cppApp.cpp">
@@ -24,9 +27,15 @@
     <ClCompile Include="Arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayGeneration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayGeneration.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

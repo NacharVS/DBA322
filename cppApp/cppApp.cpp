@@ -1,26 +1,33 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include "ArrayGeneration.h"
 using std::cin;
 using std::cout;
 using std::endl;
 
 int main()
 {
-     int numbers[5] = {1, 2, 3, 4, 5};
-    int twoDimN[5][5];
-    srand(static_cast<int>(time(0)));
-    for (int i = 0; i < sizeof(numbers)/sizeof(numbers[0]); i++)
-    {
-        for (int j = 0; j < sizeof(numbers) / sizeof(numbers[0]); j++)
-        {
-            twoDimN[i][j] = rand();
-            cout << twoDimN[i][j] << " ";
-        }
-        cout << endl;
-    }
-    
+	setlocale(LC_ALL, "Russian");
+	cout << "Создания одномерного массива 1-м способом ";
+	cout << endl;
+	ArrayGeneration::ArrOneDim1try();
+	cout << endl;
+	cout << "Создания одномерного массива 2-м способом ";
+	cout << endl;
+	ArrayGeneration::ArrOneDim2try();
+	cout << endl;
+	cout << "Создания двумерного массива 1-м способом ";
+	cout << endl;
+	ArrayGeneration::ArrTwoDim1try();
+	cout << endl;
+	cout << "Создания двумерного массива 2-м способом ";
+	cout << endl;
+	ArrayGeneration::ArrTwoDim2try();
+	cout << endl;
+	cout << "Сортировка массива методом пузырька";
+	cout << endl;
+	ArrayGeneration::SortMas();
 
- 
 }
- 
+

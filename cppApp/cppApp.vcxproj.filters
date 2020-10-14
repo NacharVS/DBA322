@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Nacharov">
       <UniqueIdentifier>{55aa83e5-3b5f-42b5-b77a-bfacbbe572a3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Kadilnikov">
+      <UniqueIdentifier>{3588b766-807d-406e-b12e-13c88230a9a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cppApp.cpp">
@@ -24,9 +27,15 @@
     <ClCompile Include="Arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MassiveMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MassiveMethods.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -13,22 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Nacharov">
-      <UniqueIdentifier>{55aa83e5-3b5f-42b5-b77a-bfacbbe572a3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Kadilnikov">
       <UniqueIdentifier>{3588b766-807d-406e-b12e-13c88230a9a7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="cppApp.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Arrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MassiveMethods.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="labafour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cppApp.cpp">
+      <Filter>Source Files\Kadilnikov</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="MassiveMethods.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="labafour.h">
+      <Filter>Source Files\Kadilnikov</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

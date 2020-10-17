@@ -1,32 +1,35 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "MassiveMethods.h"
+#include "labafour.h"
 using std::cin;
 using std::cout;
 using std::endl;
 
 int main()
 {
-	cout << "First method to create 1 array";
-	cout << endl;
-	MassiveMethods::MassOneAddOne();
-	cout << endl;
-	cout << "Second method to create 1 array ";
-	cout << endl;
-	MassiveMethods::MassOneAddTwo();
-	cout << endl;
-	cout << "First method to create 2 array ";
-	cout << endl;
-	MassiveMethods::MassTwoAddOne();
-	cout << endl;
-	cout << "Second method to create 2  array ";
-	cout << endl;
-	MassiveMethods::MassTwoAddTwo();
-	cout << endl;
-	cout << "Sort array by the bubble method";
-	cout << endl;
-	MassiveMethods::SortMasOne();
-
+	//ѕервый метод
+	labafour::metod_1(6, 15, 34);
+	// вадратное уравнение
+	labafour::metod_2(4, 5, 6);
+	// вадрат гипотенузы
+	labafour::metod_3(32, 43);
+	//закон ома
+	labafour::metod_4_I(5, 6);
+	labafour::metod_4_R(54, 23);
+	labafour::metod_4_U(43, 234);
+	//‘ибаначчи
+	labafour::metod_5(35);
+	int n1;
+	cin >> n1 ;
+	for (int count = 0; count < 35; ++count)
+	{
+		if ((labafour::metod_5(count) % n1)== 0)
+		{
+		    cout << labafour::metod_5(count) << " ";
+		}
+		
+	}
+		
 }
  

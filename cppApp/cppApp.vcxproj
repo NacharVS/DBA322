@@ -147,11 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="cppApp.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Arrays.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

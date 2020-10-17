@@ -150,10 +150,12 @@
     <ClCompile Include="ArrayGeneration.cpp" />
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="cppApp.cpp" />
+    <ClCompile Include="Pract4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayGeneration.h" />
     <ClInclude Include="Arrays.h" />
+    <ClInclude Include="Pract4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

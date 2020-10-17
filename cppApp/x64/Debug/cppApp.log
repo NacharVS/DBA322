@@ -1,5 +1,5 @@
-﻿  ArrayGeneration.cpp
-  Arrays.cpp
+﻿  Pract4.cpp
   cppApp.cpp
+D:\DBA322(4)\cppApp\cppApp.cpp(8,12): warning C4101: 'pr': unreferenced local variable
   Generating Code...
   cppApp.vcxproj -> D:\DBA322(4)\x64\Debug\cppApp.exe

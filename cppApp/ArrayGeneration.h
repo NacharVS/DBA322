@@ -19,7 +19,7 @@ public:
 	}
 	static  void ArrOneDim2try()
 	{
-		char mas1[]{ "Gey " " Nigga " " WebSite " };
+		char mas1[]{ "Hello " " Homie " " WebSite " };
 		cout << mas1;
 	}
 	static void ArrTwoDim1try()

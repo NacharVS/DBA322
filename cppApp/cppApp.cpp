@@ -2,6 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "ArrayGeneration.h"
+#include "Methods_4practice.h"
 using std::cin;
 using std::cout;
 using std::endl;
@@ -9,7 +10,16 @@ using std::endl;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	cout << "Создания одномерного массива 1-м способом ";
+	int a;
+	cin >> a;
+	for (int count = 0; count < 50; ++count)
+		if ((Methods_4practice::Fibonachi(count) % a) == 0)
+		{
+			cout << Methods_4practice::Fibonachi(count) << " ";
+		}
+
+	//-----------------------------------------------------------------------------------------------------------
+	/*cout << "Создания одномерного массива 1-м способом ";
 	cout << endl;
 	ArrayGeneration::ArrOneDim1try();
 	cout << endl;
@@ -27,7 +37,7 @@ int main()
 	cout << endl;
 	cout << "Сортировка массива методом пузырька";
 	cout << endl;
-	ArrayGeneration::SortMas();
+	ArrayGeneration::SortMas();*/
 
 }
 

@@ -1,35 +1,28 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "labafour.h"
+#include <stdio.h>
+#include "labasix.h"
 using std::cin;
 using std::cout;
 using std::endl;
-
+using std::string;
 int main()
 {
-	//ѕервый метод
-	labafour::metod_1(6, 15, 34);
-	// вадратное уравнение
-	labafour::metod_2(4, 5, 6);
-	// вадрат гипотенузы
-	labafour::metod_3(32, 43);
-	//закон ома
-	labafour::metod_4_I(5, 6);
-	labafour::metod_4_R(54, 23);
-	labafour::metod_4_U(43, 234);
-	//‘ибаначчи
-	labafour::metod_5(35);
-	int n1;
-	cin >> n1 ;
-	for (int count = 0; count < 35; ++count)
-	{
-		if ((labafour::metod_5(count) % n1)== 0)
-		{
-		    cout << labafour::metod_5(count) << " ";
-		}
-		
-	}
-		
+	setlocale(LC_ALL, "rus");
+	const int size = 10;
+	int arr[size] = { 1,4,8,2,4,1,3,7,8,4 };
+	for (int i = 0; i < size; ++i)
+		std::cout << " ";
+	std::cout << labsix::foo(arr, arr + size) << std::endl;
+	//--------------------------------------------------------------------------Ч
+	const char* str = "asdasdqwdqd";
+	char a = 'd';
+	cout << labsix::ColvoSymbol(str, a);
+	//--------------------------------------------------------------------------Ч
+	cout << endl;
+	int a1 = 40;
+	int b1 = 8;
+	labsix::NOD(a1, b1);
 }
  

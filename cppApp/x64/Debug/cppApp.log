@@ -1,17 +1,13 @@
 ﻿  cppApp.cpp
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(13,6): warning C4552: "/": результат выражения не используется
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(19,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(22,12): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(26,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(27,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(51,28): warning C4552: "+": результат выражения не используется
   labafour.cpp
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(13,6): warning C4552: "/": результат выражения не используется
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(19,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(22,12): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(26,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(27,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(51,28): warning C4552: "+": результат выражения не используется
+C:\Users\rinat\OneDrive\Документы\DBA322(2)\cppApp\labafour.h(13,6): warning C4552: "/": результат выражения не используется
+C:\Users\rinat\OneDrive\Документы\DBA322(2)\cppApp\labafour.h(19,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\rinat\OneDrive\Документы\DBA322(2)\cppApp\labafour.h(22,12): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\Users\rinat\OneDrive\Документы\DBA322(2)\cppApp\labafour.h(26,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\rinat\OneDrive\Документы\DBA322(2)\cppApp\labafour.h(27,9): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\rinat\OneDrive\Документы\DBA322(2)\cppApp\labafour.h(51,28): warning C4552: "+": результат выражения не используется
+  labasix.cpp
+  MassiveMethods.cpp
   Создание кода...
-C:\Users\rinat\OneDrive\Документы\DBA322\cppApp\labafour.h(52): warning C4715: labafour::metod_5: значение возвращается не при всех путях выполнения
-  cppApp.vcxproj -> C:\Users\rinat\OneDrive\Документы\DBA322\x64\Debug\cppApp.exe
+  LINK : не найден или не выполнена сборка C:\Users\rinat\OneDrive\Документы\DBA322(2)\x64\Debug\cppApp.exe при последней инкрементной компоновке; выполняется полная компоновка
+  cppApp.vcxproj -> C:\Users\rinat\OneDrive\Документы\DBA322(2)\x64\Debug\cppApp.exe

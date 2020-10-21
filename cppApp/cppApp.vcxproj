@@ -150,11 +150,13 @@
     <ClCompile Include="Arrays.cpp" />
     <ClCompile Include="cppApp.cpp" />
     <ClCompile Include="labafour.cpp" />
+    <ClCompile Include="labasix.cpp" />
     <ClCompile Include="MassiveMethods.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arrays.h" />
     <ClInclude Include="labafour.h" />
+    <ClInclude Include="labasix.h" />
     <ClInclude Include="MassiveMethods.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

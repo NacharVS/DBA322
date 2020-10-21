@@ -148,11 +148,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cppApp.cpp" />
-    <ClCompile Include="Methods_4practice.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayGeneration.h" />
     <ClInclude Include="Methods_4practice.h" />
+    <ClInclude Include="Methods_Rekyrsiya.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

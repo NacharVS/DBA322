@@ -21,15 +21,15 @@
     <ClCompile Include="cppApp.cpp">
       <Filter>Source Files\Nguen</Filter>
     </ClCompile>
-    <ClCompile Include="Methods_4practice.cpp">
-      <Filter>Source Files\Nguen</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayGeneration.h">
       <Filter>Source Files\Nguen</Filter>
     </ClInclude>
     <ClInclude Include="Methods_4practice.h">
+      <Filter>Source Files\Nguen</Filter>
+    </ClInclude>
+    <ClInclude Include="Methods_Rekyrsiya.h">
       <Filter>Source Files\Nguen</Filter>
     </ClInclude>
   </ItemGroup>

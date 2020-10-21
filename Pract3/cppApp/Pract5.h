@@ -19,17 +19,18 @@ public:
 public:
 	static int ColvoSymbol(string str, int i)
 	{
-		if (i == str[sizeof(str)/sizeof(str[0])])
+		double x = str.length();
+		if (i == x)
 		{
 			return 0;
 		}
 		else
 		{
 			i++;
-			return i + ColvoSymbol(str,i);
+			return 1 + ColvoSymbol(str,i);
 		}
 	}
-public: static int MaxDiv(int n, int m)
+public: static int MaxDivided(int n, int m)
 {
 	if (n == m)
 	{
@@ -39,11 +40,11 @@ public: static int MaxDiv(int n, int m)
 	{
 		if (n > m)
 		{
-			return MaxDiv(n - m, m);
+			return MaxDivided(n - m, m);
 		}
 		else
 		{
-			return MaxDiv(n, m - n);
+			return MaxDivided(n, m - n);
 		}
 	}
 }

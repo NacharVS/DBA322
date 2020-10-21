@@ -1,2 +1,6 @@
-﻿  cppApp.cpp
-  cppApp.vcxproj -> C:\Users\221819\Documents\DBA322\Pract3\x64\Debug\cppApp.exe
+﻿  Pract5.cpp
+D:\Dba322(5)\Pract3\cppApp\Pract5.h(22,12): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  cppApp.cpp
+D:\Dba322(5)\Pract3\cppApp\Pract5.h(22,12): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  Generating Code...
+  cppApp.vcxproj -> D:\Dba322(5)\Pract3\x64\Debug\cppApp.exe

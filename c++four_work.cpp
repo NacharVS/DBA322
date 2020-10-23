@@ -4,50 +4,65 @@
 #include <array>
 using namespace std;
 
+//
+//void GetRandom(int array[50], int n)
+//{
+//
+//	srand(time(NULL));
+//	for (int i = 0; i < n; i++)
+//	{
+//		array[i] = rand();
+//		cout << array[i] << " ";
+//	}
+//}
+//
+//int SummArray(int array[50], int n)
+//{
+//	if (n > 0)
+//	{
+//		
+//		return array[n-1] + SummArray(array, n-1);
+//	}
+//	else
+//	{
+//		return 0;
+//	}
+//}
 
-void GetRandom(int array[50], int n)
+int CalcLenght(char array[], int counter)
 {
-
-	srand(time(NULL));
-	for (int i = 0; i < n; i++)
+	while (array[counter] != '\0')
 	{
-		array[i] = rand();
-		cout << array[i] << " ";
+		counter++;
 	}
+	return counter;
 }
 
-int SummArray(int array[50], int n)
+int Evklid(int m, int n)
 {
-	if (n > 0)
+	int mod;
+
+	mod = m % n;
+	if (mod == 0)
 	{
-		
-		return array[n-1] + SummArray(array, n-1);
+		return n;
 	}
 	else
 	{
-		return 0;
-	}
-}
-
-int Count(char c, string s)
-{
-	
-	if (0 == s.length()) //пройтись по всей строке false(default)
-		return 0;
-	else
-	{
-		if (c == s[i]) // если символ найден
-			return Count(c, s, 0 + 1) + 1; // length++;
-		else
-			return Count(c, s, 0 + 1); // countinue
+		return Evklid(n, mod);
 	}
 }
 
 int main()
 { // 1 - Задание
+
+
+	/*int array[50];*/
+
+
 	//int n;
 	//cin >> n;
-	//int array[50];
+
 
 	//GetRandom(array, n);
 	//cout << endl;
@@ -55,15 +70,18 @@ int main()
 	//cout << print;
 
  // 2 - задание
+	//char array_lenght[50];
+	//cin >> array_lenght;
+	//int counter = 0;
+	//cout << CalcLenght(array_lenght, counter) << endl;
 
-	string s;
-	char c;	
-	
-	cin >> c;
-	cin >> s;
-	Count(c, s);
+ // 3 - задание 
+	cout << "enter 2 numbers: " << endl;
+	int a, b;
+	cin >> a >> b;
 
-
+	int otvet = Evklid(a, b);
+	cout << otvet;
 }
 
 

@@ -5,13 +5,33 @@
 #include "ArrayGeneration.h"
 #include "Methods_4practice.h"
 #include "Methods_Rekyrsiya.h"
+#include "ykazateli.h"
 using std::cin;
 using std::cout;
 using std::endl;
 
 int main()
 {
-	setlocale(LC_ALL, "rus");
+	ykazateli::rast(10, 5);
+	cout<<endl;
+	int n = 10;
+	int m = 5;
+	int* x1 = &n;
+	int* x2 = &m;
+	int len = abs(((int)x1 - (int)x2) / 8);
+	cout << (int)x1 << endl;
+	cout << (int)x2 << endl;
+	cout << len;
+	cout << endl;
+	int a = 100, b = 5;
+	std::cout << "&a: " << &a << "\n&b: " << &b << "\n&a - &b: " << ((char*)&a - (char*)&b) << std::endl;
+	
+
+
+
+
+	//-----------------------------------------------------------------------------------------------------------
+	/*setlocale(LC_ALL, "rus");
 	const int size = 10;
 	int arr[size] = { 1,4,8,2,4,1,3,7,8,4 };
 	for (int i = 0; i < size; ++i)
@@ -25,7 +45,7 @@ int main()
 	cout <<endl;
 	int a1 = 40;
 	int b1 = 8;
-	Methods_Rekyrsiya::NaibODel(a1, b1);
+	Methods_Rekyrsiya::NaibODel(a1, b1);*/
 
 
 

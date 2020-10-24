@@ -18,19 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Arrays.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MassiveMethods.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="labafour.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="cppApp.cpp">
-      <Filter>Source Files\Kadilnikov</Filter>
-    </ClCompile>
-    <ClCompile Include="labasix.cpp">
       <Filter>Source Files\Kadilnikov</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,10 +29,10 @@
     <ClInclude Include="MassiveMethods.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="labafour.h">
-      <Filter>Source Files\Kadilnikov</Filter>
-    </ClInclude>
     <ClInclude Include="labasix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Labaseven.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -9,20 +9,16 @@ using std::endl;
 using std::string;
 int main()
 {
-	setlocale(LC_ALL, "rus");
-	const int size = 10;
-	int arr[size] = { 1,4,8,2,4,1,3,7,8,4 };
-	for (int i = 0; i < size; ++i)
-		std::cout << " ";
-	std::cout << labsix::foo(arr, arr + size) << std::endl;
-	//--------------------------------------------------------------------------—
-	const char* str = "asdasdqwdqd";
-	char a = 'd';
-	cout << labsix::ColvoSymbol(str, a);
-	//--------------------------------------------------------------------------—
-	cout << endl;
-	int a1 = 40;
-	int b1 = 8;
-	labsix::NOD(a1, b1);
+    int z = 10;
+    int x = 43;
+    int c = 12;
+    int v = 54;
+    int b = 767;
+    int* x1 = &z;
+    int* x2 = &b;
+    int len = abs(((int)x1 - (int)x2) / 8);
+    cout << (int)x1 << endl;
+    cout << (int)x2 << endl;
+    cout << len;
 }
  

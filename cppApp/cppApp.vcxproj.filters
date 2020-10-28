@@ -21,6 +21,9 @@
     <ClCompile Include="cppApp.cpp">
       <Filter>Source Files\Kadilnikov</Filter>
     </ClCompile>
+    <ClCompile Include="labeight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arrays.h">
@@ -34,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="Labaseven.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="labeight.h">
+      <Filter>Source Files\Kadilnikov</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

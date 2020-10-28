@@ -148,11 +148,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cppApp.cpp" />
+    <ClCompile Include="labeight.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arrays.h" />
     <ClInclude Include="Labaseven.h" />
     <ClInclude Include="labasix.h" />
+    <ClInclude Include="labeight.h" />
     <ClInclude Include="MassiveMethods.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

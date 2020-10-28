@@ -151,6 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayGeneration.h" />
+    <ClInclude Include="massYkaz.h" />
     <ClInclude Include="Methods_4practice.h" />
     <ClInclude Include="Methods_Rekyrsiya.h" />
     <ClInclude Include="ykazateli.h" />

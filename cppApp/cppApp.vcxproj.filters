@@ -35,5 +35,8 @@
     <ClInclude Include="ykazateli.h">
       <Filter>Source Files\Nguen</Filter>
     </ClInclude>
+    <ClInclude Include="massYkaz.h">
+      <Filter>Source Files\Nguen</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

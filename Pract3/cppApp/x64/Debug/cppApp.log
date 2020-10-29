@@ -1,12 +1,2 @@
-﻿  Pract5.cpp
-  cppApp.cpp
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(17,25): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(17,25): warning C4302: 'type cast': truncation from 'int *' to 'int'
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(17,34): warning C4311: 'type cast': pointer truncation from 'double *' to 'int'
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(17,34): warning C4302: 'type cast': truncation from 'double *' to 'int'
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(18,18): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(18,18): warning C4302: 'type cast': truncation from 'int *' to 'int'
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(19,18): warning C4311: 'type cast': pointer truncation from 'double *' to 'int'
-D:\Dba322(5)\Pract3\cppApp\cppApp.cpp(19,18): warning C4302: 'type cast': truncation from 'double *' to 'int'
-  Generating Code...
+﻿  cppApp.cpp
   cppApp.vcxproj -> D:\Dba322(5)\Pract3\x64\Debug\cppApp.exe

@@ -1,0 +1,20 @@
+﻿<Window x:Class="NguenMongo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NguenMongo"
+        mc:Ignorable="d"
+        Title="Naruto" Height="600" Width="800">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Vertical" Height="160">
+            <Image Source="D:\NguenMongo\NguenMongo\logo.png" Height="80" HorizontalAlignment="Left" Width="76" ></Image>
+            <Label Content="Выберите таблицу: " HorizontalAlignment="Center" FontSize="22"/>
+            <ComboBox x:Name="ComboChoose" SelectionChanged="ComboChoose_SelectionChanged" FontSize="20" Margin="0,0,0,10">
+                <ComboBoxItem Content="Хокаге"/>
+            </ComboBox>
+        </StackPanel>
+        <Frame x:Name="ComboFrame" NavigationUIVisibility="Hidden" Height="350"/>
+    </StackPanel>
+    
+</Window>
